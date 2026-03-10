@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Old development folders
+"## old_stuff_1"/
+"## old_stuff_2"/
+
+# Claude Code settings
+.claude/
+
+# Local-only scripts (pre-refactor)
+khmer_to_ipa.py
+khmer_to_ipa_ORIGINAL.py
+brao_ipa_to_lao.py
+
+# Local test/scratch data files (not part of the app)
+brao_flex*.xlsx
+brao_parsed_output*.xlsx
+brao_test_data_*
+brao_vowels_by_onset_class.xlsx
+kmr_head1997.xlsx
+/khmer_ipa_conversion_table.xlsx
+parsing_logic.xlsx
+_tmp.txt
+
+# Local launcher
+Launch Orthographizer.bat
+
+# Claude session notes
+2026-*.docx
+
+# Unused module (placeholder)
+languages/
+
+# OS
+.DS_Store
+Thumbs.db
